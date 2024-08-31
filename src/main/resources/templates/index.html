@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Weather Forecast Demo</title>
+</head>
+<body>
+	<div style="text-align: center;">
+		<div>
+			<h2>Realtime Weather</h2>
+		</div>
+		<div>
+			Your location: <strong>[[${weather.location}]]</strong>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			Temperature: <strong>[[${weather.temperature}]] &deg;C</strong> 
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			Humidity: <strong>[[${weather.humidity}]] %</strong>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			Precipitation: <strong>[[${weather.precipitation}]] %</strong>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			Wind Speed: <strong>[[${weather.windSpeed}]] km/h</strong>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			Status: <strong>[[${weather.status}]]</strong>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			<h4>Last Update: <strong>[[${weather.lastUpdated}]]</strong></h4>
+		</div>
+	</div>
+</body>
+</html>
